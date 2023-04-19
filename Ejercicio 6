@@ -1,0 +1,15 @@
+// 6.Ingresar los lados de un rectángulo y calcular su diagonal principal, superficie y perímetro. Imprimir los resultados solicitados.
+{
+    float lado1, lado2, diag, per, sup;
+    Console.WriteLine("Ingresar un lado del rectángulo");
+    lado1 = float.Parse(Console.ReadLine());
+    Console.WriteLine("Ingresar otro lado del rectángulo");
+    lado2 = float.Parse(Console.ReadLine());
+    diag = (float)Math.Sqrt(Math.Pow(lado1, 2) + Math.Pow(lado2, 2));
+    Console.WriteLine("El valor de la diagonal es de " + diag);
+    per = lado1*2 + lado2*2;
+    Console.WriteLine("El valor del perímetro es de " + per);
+    sup = lado1 * lado2;
+    Console.WriteLine("El valor de la superficie es de " +  sup);
+    
+}
