@@ -1,0 +1,10 @@
+{
+
+    Console.WriteLine("Buen dia empleado, ingrese su nombre ");
+    string emp = Console.ReadLine();
+    Console.WriteLine("Ingrese cantidad de horas trabajadas ");
+    int ch = int.Parse(Console.ReadLine()); int vh = 10; int sdo = ch * vh;
+    Console.WriteLine("Su sueldo actual es de " + sdo);
+
+
+}
