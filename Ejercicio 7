@@ -1,0 +1,13 @@
+// 7.Ingresar el valor de la hora y el tiempo trabajado por un operario, calcular su sueldo e imprimirlo.
+{
+
+    Console.WriteLine("Buen dia empleado, ingrese su nombre ");
+    string emp = Console.ReadLine();
+    Console.WriteLine("Ingrese cantidad de horas trabajadas ");
+    int ch = int.Parse(Console.ReadLine());
+    Console.WriteLine("Ingrese el valor de la hora de trabajo ");
+    int vh = int.Parse(Console.ReadLine());
+    int sdo = ch*vh;
+    Console.WriteLine(emp + (", su sueldo actual es de " + sdo));
+
+}
