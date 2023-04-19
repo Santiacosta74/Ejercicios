@@ -1,0 +1,10 @@
+// 3.Ingresar tres valores, sumarlos e imprimir esa suma, se puede sumar de a varios en la misma operación.
+
+Console.WriteLine("Ingresar el primer valor que desee sumar");
+int Numero1 = int.Parse(Console.ReadLine());
+Console.WriteLine("Ingresar el segundo valor que desee sumar");
+int Numero2 = int.Parse(Console.ReadLine());
+Console.WriteLine("Ingrese el tercer valor que desee sumar");
+int Numero3 = int.Parse(Console.ReadLine());
+int Suma = Numero1 + Numero2 + Numero3;
+Console.WriteLine("La suma final es de " + Suma);
