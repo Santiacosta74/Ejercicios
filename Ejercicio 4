@@ -1,0 +1,8 @@
+// 4.Ingresar los lados de un rectángulo y calcula su perímetro (suma de todos los lados) e imprimirlo.
+
+Console.WriteLine("Ingresar el valor del lado 1 del rectangulo");
+int lado1 = int.Parse(Console.ReadLine());
+Console.WriteLine("Ingresar el valor del lado 2 del rectangulo");
+int lado2 = int.Parse(Console.ReadLine());
+int Perimetro = lado1 * 2 + lado2 * 2;
+Console.WriteLine("El perimetro del rectángulo es de " + Perimetro);
