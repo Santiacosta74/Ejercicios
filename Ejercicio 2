@@ -1,0 +1,12 @@
+// 2.Ingresar tres valores,imprimir la suma total. (solo sabe sumar de a dos por vez).
+
+Console.WriteLine("Ingresar un primer numero");
+int Numero1 = int.Parse(Console.ReadLine());
+Console.WriteLine("Ingresar un segundo numero");
+int Numero2 = int.Parse(Console.ReadLine());
+int Suma = Numero1 + Numero2;
+Console.WriteLine("La suma de ambos numeros es de " + Suma);
+Console.WriteLine("Ingrese un tercer numero");
+int numero3 = int.Parse(Console.ReadLine());
+int Sumafinal = Suma + numero3;
+Console.WriteLine("La suma final es de " + Sumafinal);
