@@ -1,0 +1,16 @@
+// 8.Ingresar dos valores, calcular su suma, su producto y la resta del primero menos el segundo valor ingresado e imprimir los resultados.
+{
+
+    Console.WriteLine("Ingresar el primer valor");
+    int Valor1 = int.Parse(Console.ReadLine());
+    Console.WriteLine("Ingresar el segundo valor");
+    int Valor2 = int.Parse(Console.ReadLine());
+    int Suma = Valor1 + Valor2;
+    Console.WriteLine("La suma de ambos numeros es de " +  Suma);
+    int Prod = Valor1 * Valor2;
+    Console.WriteLine("El producto de ambos numeros es de " +  Prod);
+    int Resta = Valor1 - Valor2;
+    Console.WriteLine("La resta de " + Valor1 + "-" + Valor2 + ", es de " + Resta);
+
+
+}
